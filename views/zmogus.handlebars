@@ -1,0 +1,20 @@
+<h1>Informacija apie pasirinkta zmogu: </h1>
+
+    <form action="/zmogus" method="POST">
+{{#if zmogus}}
+<input type="hidden" name="id" value="{{zmogus.id}}">
+{{/if}}
+    Vardas: <input type="text" name="vardas" {{#if zmogus}}value="{{zmogus.vardas}}"{{/if}}>
+    Pavarde: <input type="text" name="pavarde" {{#if zmogus}} value="{{zmogus.pavarde}}" {{/if}}>
+    Alga: <input type="number" name="alga" {{#if zmogus}} value="{{zmogus.alga }}" {{/if}}>
+    <input type="submit" value="Save">
+    </form>
+
+{{!-- {{else}}
+ <h1>You stupid!</h1>
+{{/if}} --}}
+
+{{!-- {{#with zmogus}}
+<a href="/redagavimas/{{id}}">Redaguoti duomenys</a>
+{{/with}} --}}
+    <a href="/">Go back</a>

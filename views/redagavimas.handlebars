@@ -1,0 +1,19 @@
+{{#with zmogus}}
+Vardas: <b>{{vardas}}</b><br>
+Pavarde: <b>{{pavarde}}</b><br>
+Alga: <b>{{alga}}<br></b>
+
+Unikalus identifikavimo numeris: <b>{{id}}</b>
+
+
+    <br><form method="get">
+        naujas vardas: <input type="text" value="{{vardas}}" name="naujasVardas" ><br>
+        <br>
+        nauja pavarde: <input type="text" value="{{pavarde}}" name="naujaPavarde" ><br>
+        <br>
+        nauja alga: <input type="number" value="{{alga}}" name="naujaAlga" ><br>
+        <br>
+        <input type="submit" value="Save" href="/">
+       <button><a href="/">Go back!</a></button> 
+        </form>
+        {{/with}}

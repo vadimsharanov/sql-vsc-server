@@ -1,0 +1,32 @@
+<button onclick="showDOM()" >Show DOM</button>
+<button onclick="addNewButton()" >Add button</button>
+<button onclick="addNewText()" >Add text</button>
+<a href="/naujas.html">Prideti nauja zmogu</a>
+        <table id="t">
+            <thead>
+                <tr>
+                    <th>Vardas</th>
+                    <th>Pavarde</th>
+                    <th>Alga</th>
+                </tr>
+                </thead>
+                <tbody>
+            {{#each zmones}}
+            <tr>
+                <td> <a href="/zmogus/{{id}}">{{vardas}}</a></td>
+                <td> <a href="/zmogus/{{id}}">{{pavarde}}</a></td>
+                <td> {{alga}}</td>
+                 </td>
+                 <td>
+
+                <a href="/zmogus/{{id}}/delete">Sudeginti</a>
+                 </td>
+                
+                </tr>
+            {{/each}}
+            </table>
+            </tbody>
+
+                 {{!-- <td><form action="/" method="POST">
+                 <input type="submit" value="sudeginti" name="{{id}}" >
+                 </form> --}}

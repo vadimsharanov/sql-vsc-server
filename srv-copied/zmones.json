@@ -1,0 +1,32 @@
+[
+  {
+    "id": 22,
+    "vardas": "Bevardis",
+    "pavarde": "Bepavardis",
+    "alga": 20022
+  },
+  {
+    "id": 23,
+    "vardas": "Bevardis",
+    "pavarde": "Bepavardis",
+    "alga": 100000
+  },
+  {
+    "id": 24,
+    "vardas": "Bevardis",
+    "pavarde": "Bepavardis",
+    "alga": 0
+  },
+  {
+    "id": 25,
+    "vardas": "Bevardis",
+    "pavarde": "Bepavardis",
+    "alga": 0
+  },
+  {
+    "id": 26,
+    "vardas": "ggg",
+    "pavarde": "gg",
+    "alga": 0
+  }
+]
